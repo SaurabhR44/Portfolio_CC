@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!--/ /---- Put your name in the title of the page ----/ /-->
+	<title>Saurabh R</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<!-- Add a link to google fonts here if you want them -->
+	
+	<!--/ /-------- Font Awesome --------/ /-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--/ /-------- Your Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!--/ /---Put a short description for your site below. 20 words or less---/ /-->
+	<meta description="A short description for your site...">
+
+	<!--/ /-------- Needed For Mobile Devices --------/ /-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+	
+    <!-- ------------------------------------------------------
+    The site is designed to be mobile first. The wrapper elements
+	are in place for when you get to desktop size to contain the 
+	content.
+    ------------------------------------------------------- -->
+    
+	<header class="primary">
+        <div class="wrapper">
+            
+			<div class="logo-container">
+				<h1>Saurabh<br>R<br>Portfolio</h1>
+
+				<!-- ------------------------------------------------------
+				Note that the image of the logo is linked to the home page.
+				------------------------------------------------------- -->
+				<a href="index.html"><img src="https://dummyimage.com/175/c4c4c4/fff&text=SR" alt="logo image" id="logo"></a>
+			</div>
+            
+            
+			<!-- ------------------------------------------------------
+            The navigation here is linking to the sections further down
+            the page.
+            ------------------------------------------------------- -->
+			<nav id="mainnav">
+            	<ul>
+                	<li><a href="#work">Work</a></li>
+                    <li><a href="#about-contact">About</a></li>
+                    <li><a href="#about-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+    
+    <!-- ------------------------------------------------------
+    This is the work section, which has two parts: the featured
+	section and the projects section.
+    ------------------------------------------------------- -->
+    
+    <section id="work">
+   		<div class="wrapper">
+        	<h2>Check Out My Best Projects</h2>
+        	<section class="featured">
+                <article>
+                	<!-- ------------------------------------------------------
+                    Link the image below to the detail page for this project.
+                    Use the page.html file to make that page. Also link the 
+                    anchor tag in the paragraph below to the same page.
+                    ------------------------------------------------------- -->
+                	<a href="#"><img src="https://dummyimage.com/510x300/c4c4c4/fff&text=Featured+Project" alt="image"></a>
+                </article>
+                
+                <article>
+                	<h3>Cloud Deployment Portfolio</h3>
+                    <h4>Challenge Statement</h4>
+                    <p>Deploy a responsive portfolio website to reach millions of users leveraging cloud infrastructure. This project demonstrates the ability to create a scalable, professional web presence and utilize modern DevOps practices for seamless deployment and continuous integration.</p> <p><a href="#">Deployed and Managed on Cloud</a></p> 
+                </article>
+            </section> <!-- end row -->
+            
+            
+            <!-- ------------------------------------------------------
+            The projects section is for additional projects. I put four in
+			here, but it could be more, or less. You just have to pay
+			attention to how they wrap, and how many you want per row.
+            
+            Note that each image should be linked to the page with more
+            detailed information about that project. You can use a copy of
+            page.html to create those pages.
+            ------------------------------------------------------- -->
+            
+            <section class="projects">
+            
+            	<article>
+                	<h3>Flask Web Application</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Flask+App" alt="image"></a>
+                    <p><strong>Role:</strong> Backend Developer</p>
+                    <p><strong>Description:</strong> Built a scalable Flask application with REST API endpoints for cloud integration and data management.</p>
+                </article>
+                
+                <article>
+                	<h3>Function as a Service</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=FaaS" alt="image"></a>
+                    <p><strong>Role:</strong> Cloud Developer</p>
+                    <p><strong>Description:</strong> Developed serverless functions for efficient event-driven architecture and cost-effective cloud solutions.</p>
+                </article>
+                
+                <article>
+                	<h3>Supabase Object Store Integration</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Supabase" alt="image"></a>
+                    <p><strong>Role:</strong> Full Stack Developer</p>
+                    <p><strong>Description:</strong> Integrated Supabase object storage with secure authentication and real-time database capabilities.</p>
+                </article>
+			
+			<article>
+                	<h3>Portfolio Deployment</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Portfolio" alt="image"></a>
+                    <p><strong>Role:</strong> DevOps Engineer</p>
+                    <p><strong>Description:</strong> Deployed and maintained professional portfolio website using Git, GitHub, and cloud deployment practices (SRN: PES2UG23AM094).</p>
+            
+            </section><!-- end row -->
+            
+        </div> <!-- end work wrapper -->
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    This is the about and contact section. The links in the main
+    navigation link to this section. 
+    ------------------------------------------------------- -->
+    
+    <section id="about-contact" class="secondary">
+   		<div class="wrapper">
+        	
+			<div class="profile-photo">
+            	<img src="image1.png" alt="Saurabh R Profile Photo">
+            </div>
+			
+            <article>
+				<h2>About Me</h2>
+				<p>I'm Saurabh R (SRN: PES2UG23AM094), a passionate developer and cloud engineer. I specialize in building scalable applications and deploying them to the cloud. I believe in creating clean, efficient code and delivering robust solutions that make a real impact.</p>
+				<h3>Skills</h3>
+				<p>I am particularly good at Flask development and cloud deployment, and I really enjoy working with serverless architectures. I am currently learning advanced DevOps practices and I'm very excited about building enterprise-grade cloud solutions.</p>
+			</article> 
+                
+			<article>
+				<h2>Contact Me!</h2>
+				<p>I'm interested in cloud engineering and full-stack development opportunities. Feel free to reach out to discuss projects, collaborations, or just to connect. You can contact me through email or my social media channels.</p>
+
+				<!-- SRN: PES2UG23AM094 -->
+
+				<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:saurabh.r@email.com">saurabh.r@email.com</a><br>
+				<i class="fa fa-phone" aria-hidden="true"></i> +91-XXXXXXXXXX</p>
+
+				<!-- SRN: PES2UG23AM094 -->
+
+				<p class="social">
+					<a href="https://github.com/SaurabhR44"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a> 
+					<a href="#"><i class="fab fa-twitter-square"></i></a>
+				</p>
+			</article>
+                   
+        </div>
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    Footer section with copyright and SRN reference
+    SRN: PES2UG23AM094
+    ------------------------------------------------------- -->
+    <footer class="primary">
+    	<div class="wrapper">
+        	<p class="centered">&copy; 2026 Saurabh R (PES2UG23AM094) - All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
